@@ -1,0 +1,35 @@
+This text file outlines the SQL scripts for creating the database and its tables and columns.
+I've named my database as 'internshipract'
+
+I've done the web form using;
+  FRONTEND: Html, Bootstrap, javascript and CSS
+  BACKEND: PHP
+  DATABASE: MYSQL
+  SERVER: WAMP localhost server
+  
+  
+Once you open the mySQL console on your localhost server, type the following commands;
+  
+  show databases; (to show all the databases hosted in your localhost server)
+  create database 'database_name'; (to create a database)
+  create table 'table_name'(
+  lastname varchar(191) not null,
+  firstname varchar(191) not null,
+  middlename varchar(191) not null,
+  gender varchar(20) not null,
+  race varchar(20) not null,
+  age int(20) not null,
+  dob varchar(50) not null,
+  facilityname varchar(50) not null,
+  city varchar(50) not null,
+  county varchar(50) not null,
+  state varchar(50) not null,
+  phonenumber varchar(15) not null,
+  street varchar(50) not null
+  );
+  
+  AFTER YOU CLICK ENTER, A TABLE WILL HAVE BEEN CREATED WITH COLUMN NAMES THAT WILL ACOMMODATE
+  THE DATA IN THE FORM THAT WE HAVE CREATED IN THE WEBSITE
+  
+  
+  
